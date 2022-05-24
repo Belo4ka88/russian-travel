@@ -1,13 +1,13 @@
 .place{
-display: grid;
-width: 100%;
-grid-template-columns: 460px minmax(484px, 1fr);
-margin: 0 auto 80px;
-align-items: end;
-gap: 40px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1.05fr;
+    margin: 0 auto 80px;
+    align-items: end;
+    gap: 40px;
 }
 .place:nth-child(5){
-margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 425px){
