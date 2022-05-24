@@ -1,8 +1,8 @@
 .lead__container_image{
-    max-width: 984px;
+    width: 100%;
     margin: 0 auto;
 }
-
+/*
 @media screen and (max-width: 425px){
     .lead__container_image{
         width: 320px;
@@ -22,3 +22,4 @@
         max-height: 480px;
     }
 } 
+*/

@@ -13,17 +13,17 @@
 
 @media screen and (max-width: 425px){
     .travel{
-        max-width: 320px;
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px){
     .travel{
-        max-width: 768px;
+        width: 100%;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .travel{
-        max-width: 1024px;
+        width: 100%;
     }
 }

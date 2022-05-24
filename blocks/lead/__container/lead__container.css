@@ -1,5 +1,5 @@
 .lead__container{
-    max-width: 984px;
+    width: calc(928px/1028px);
     display: flex;
     flex-direction: column;
     margin: 0 auto;
