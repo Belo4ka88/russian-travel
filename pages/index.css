@@ -6,7 +6,7 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__wrapper/header__wrapper.css);
 /* Travel */
-@import url(../blocks/travel/travel.css);
+@import url(../blocks/page/page.css);
 
 /* Lead */
 @import url(../blocks/lead/lead.css);
