@@ -1,0 +1,29 @@
+.travel{
+  width: 1280px;
+  font-family: 'Inter', Arial;
+  margin: 0 auto;
+  background: #2a2c2f;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 425px){
+    .travel{
+        max-width: 320px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .travel{
+        max-width: 768px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .travel{
+        max-width: 1024px;
+    }
+}

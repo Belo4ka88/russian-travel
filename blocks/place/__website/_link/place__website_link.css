@@ -1,0 +1,22 @@
+.place__website_link{
+    margin: 0;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+letter-spacing: 2px;
+color: #AAAAAA;
+}
+@media screen and (max-width: 425px){
+    .place__website_link{
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .place__website_link{
+    font-size: 12px;
+    line-height: 12px;
+    }
+}
