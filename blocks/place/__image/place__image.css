@@ -1,9 +1,6 @@
-.place__image{
+.place__image {
     width: 100%;
     object-fit: cover;
+    align-self: start;
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .place__image {
-        align-self: start;
-    }
-}
+

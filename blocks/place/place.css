@@ -1,16 +1,29 @@
-.place{
+.place {
     display: grid;
-    width: 100%;
+    width: calc(100% - 296px);
     grid-template-columns: 1fr 1.05fr;
     margin: 0 auto 80px;
     align-items: end;
     gap: 40px;
     justify-content: center;
 }
-.place:nth-child(5){
+.place:last-child {
     margin-bottom: 0;
 }
-
+@media screen and (max-width: 1279px) {
+    .place {
+        width: calc(100% - 96px);
+        column-gap: 32px;
+        row-gap: 48px;
+    }
+}
+@media screen and (max-width: 1023px){
+    .place{
+        column-gap: 28px;
+        row-gap: 48px;
+        margin: 0 auto 73px;
+    }
+}
 @media screen and (max-width: 767px){
     .place{
         grid-template-columns: 320px;
@@ -21,17 +34,5 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .place{
-        column-gap: 28px;
-        row-gap: 48px;
-        margin: 0 auto 73px;
-    }
-}
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .place {
-        column-gap: 32px;
-        row-gap: 48px;
-    }
-}
+

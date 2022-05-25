@@ -1,21 +1,22 @@
-.intro__title{
-padding-top: 92px;
-margin: 0;
-font-style: normal;
-font-weight: 900;
-font-size: 54px;
-line-height: 58px;
-color: #FFFFFF;
+.intro__title {
+    padding-top: 92px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    color: #FFFFFF;
 }
-@media screen and (max-width: 767px){
-    .intro__title{
+@media screen and (max-width: 1023px) {
+    .intro__title {
+        padding-top: 88px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .intro__title {
     font-size: 32px;
     line-height: 35px;
     padding-top: 64px;  
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .intro__title{
-        padding-top: 88px;
-    }
-}
+
