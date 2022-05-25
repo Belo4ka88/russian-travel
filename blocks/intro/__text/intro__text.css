@@ -6,14 +6,4 @@ font-size: 16px;
 line-height: 163%;
 color: #FFFFFF;
 }
-/* @media screen and (max-width: 320px){
-    .intro__text{
-        margin-top: 40px;
-    }
-} */
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
-    .intro__text{
-        max-width: 690px;
-    }
-}

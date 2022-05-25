@@ -1,25 +1,5 @@
 .lead__container{
-    width: calc(928px/1028px);
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
-/*
-@media screen and (max-width: 425px){
-    .lead__container{
-        width: 320px;
-        margin: 0;
-    }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px){
-    .lead__container{
-        max-width: 928px;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 768px){
-    .lead__container{
-        max-width: 768px;
-    }
-}
-*/

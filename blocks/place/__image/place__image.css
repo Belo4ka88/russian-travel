@@ -1,25 +1,9 @@
 .place__image{
-    max-width: 460px;
-    min-height: calc((460/460)*min(460, 100vw));
-    align-self: start;
+    width: 100%;
+    object-fit: cover;
 }
-
-@media screen and (max-width: 425px){
-    .place__image{
-    max-width: 320px;
-    min-height: calc((320/4320)*min(320, 100vw));
-    margin: 0 auto;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__image {
+        align-self: start;
     }
 }
-@media screen and (min-width: 426px) and (max-width: 768px){
-    .place__image{
-        max-width: 340px;
-    }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px){
-    .place__image{
-    max-width: 440px;
-    max-height: 440px;
-    }
-}
-
