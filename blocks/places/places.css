@@ -1,27 +1,14 @@
-.places{
+.places {
     padding-top: 92px;
 }
-@media screen and (min-width: 1280px) {
-    .places {
-        width: calc(100% - 96px);
-        margin: 0 auto;
-    }
-}
-@media screen and (max-width: 1279px) {
-    .places {
-        width: calc(100% - 96px);
-        margin: 0 auto;
-    }
-}
+
 @media screen and (max-width: 1023px) {
-    .places{
-        width: calc(100% - 48px);
+    .places {
         padding-top: 88px;
     }
 }
 @media screen and  (max-width: 767px){
-    .places{
-        width: 100%;
+    .places {
         padding-top: 64px;
     }
 }
