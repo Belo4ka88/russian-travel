@@ -5,6 +5,9 @@
   color: white;
   margin-left: 18px;
   }
+.header__lang-link:hover {
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 767px) {
   .header__lang-link{
