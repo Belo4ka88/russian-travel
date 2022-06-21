@@ -49,3 +49,10 @@
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__link-item/footer__link-item.css);
 
+/* Popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_open/popup_open.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__image-container/popup__image-container.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+
