@@ -11,9 +11,10 @@ function closePopup (item) {
 
 gridContainer.addEventListener('click', (item) => {
     console.log(item.target);
-   if (item.target.classList.contains('photo-grid__item'))
+   if (item.target.classList.contains('photo-grid__item')){
    popupOpen.classList.add('popup_open');
    cardLink.src = item.target.src;
+}
 
 });
 
